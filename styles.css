@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    position: absolute;
+   left:30%;
+   top:15%; 
+   background-color: black;
+   color: white;
+   padding: 80px;
+}
+
+.header > h1{
+    color: red;
+    font-weight: bolder;
+    font-size: 55px;
+    padding-bottom: 55px;
+}
+
+.header label{
+    font-size: 25px;
+    color: blueviolet;
+}
+
+.header input{
+    width: 150px;
+    height: 32px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px;
+    padding: 8px;
+}
+.header button{
+    width:65px;
+    height: 28px;
+    border-radius: 30px;
+    background-color: rgb(27, 13, 217);
+    color: white;
+}
+
+.display fieldset {
+    padding: 30px;
+}
+.display legend{
+    font-size: 35px;
+    color: red;
+}
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  
+  button.delete {
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    margin-left: 80px;
+  }
+  
+  button.edit {
+    background-color: #007BFF;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    margin-left: 30px;
+  }
+  
